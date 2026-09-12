@@ -1,4 +1,5 @@
 import './App.css'
+import Apresentacao from './components/Apresentacao'
 import Calculadora from './components/Calculadora'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <section id="center">
         <div className="hero">
           <Calculadora />
+          <Apresentacao/>
         </div>
       </section>
     </>
